@@ -2,11 +2,15 @@
     max-width: 700px;
 }
 
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+}
 
 .col-1{
     width: 100px;
     height: 100px;
-    text-align: ;
 }
 
 .normal{
