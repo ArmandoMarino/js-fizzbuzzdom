@@ -1,0 +1,26 @@
+#wrapper{
+    max-width: 700px;
+}
+
+
+.col-1{
+    width: 100px;
+    height: 100px;
+    text-align: ;
+}
+
+.normal{
+    background-color: #1389b2;
+}
+
+.multiple-3{
+    background-color: #0cd6a1;
+}
+
+.multiple-5{
+    background-color: #ffd166;
+}
+
+.multiple-15{
+    background-color: #f0466f;
+}
