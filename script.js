@@ -35,34 +35,34 @@ console.log(wrapperContent);
 // ? Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz” al posto del numero.
 
 
-let content = `<div class="row text-center">`;
+let content = `<div class="row gx-5 text-center justify-content-between">`;
 
 
 for (var i = 1; i < 101; i++) 
     if (i % 15 == 0){
         content += `
-        <div class="multiple-15 col-1 d-flex align-items-center justify-content-center">
+        <div class="multiple-15 g-1 col-1 d-flex align-items-center justify-content-center">
             FizzBuzz
         </div>`;
         console.log("FizzBuzz");
     } 
     else if (i % 3 == 0){
         content += `
-        <div class="multiple-3 col-1 d-flex align-items-center justify-content-center">
+        <div class="multiple-3 g-1 col-1 d-flex align-items-center justify-content-center">
             Fizz
         </div>`;
         console.log("Fizz");
     } 
     else if (i % 5 == 0){
         content += `
-        <div class="multiple-5 col-1 d-flex align-items-center justify-content-center">
+        <div class="multiple-5 g-1 col-1 d-flex align-items-center justify-content-center">
             Buzz
         </div>`;
         console.log("Buzz");
     } 
     else {
         content += `
-        <div class="normal col-1 d-flex align-items-center justify-content-center">
+        <div class="normal g-1 col-1 d-flex align-items-center justify-content-center">
             ${i}
         </div>`;
         console.log(i);

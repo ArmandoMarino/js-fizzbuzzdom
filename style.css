@@ -1,3 +1,7 @@
+body{
+    background-color: #083b4c;
+}
+
 #wrapper{
     max-width: 700px;
 }
@@ -6,6 +10,7 @@ h1{
     font-size: 60px;
     font-weight: 900;
     text-align: center;
+    color: #ffff;
 }
 
 .col-1{
@@ -28,3 +33,5 @@ h1{
 .multiple-15{
     background-color: #f0466f;
 }
+
+
